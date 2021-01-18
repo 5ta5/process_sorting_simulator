@@ -1,0 +1,4 @@
+/home/stas/GIT/process_sorting_simulator/build/CMakeFiles/rebuild_cache.dir
+/home/stas/GIT/process_sorting_simulator/build/CMakeFiles/edit_cache.dir
+/home/stas/GIT/process_sorting_simulator/build/CMakeFiles/automatic_process_sorting_simulator.dir
+/home/stas/GIT/process_sorting_simulator/build/CMakeFiles/process_sorting_simulator.dir

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/simulator.h
+iostream
+-
+vector
+-
+string
+-
+cstdlib
+-
+ctime
+-
+fstream
+-
+algorithm
+-
+
+/home/stas/GIT/process_sorting_simulator/source/process.cpp
+simulator.h
+/home/stas/GIT/process_sorting_simulator/source/simulator.h
+
