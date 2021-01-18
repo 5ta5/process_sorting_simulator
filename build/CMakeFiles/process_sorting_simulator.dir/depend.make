@@ -13,6 +13,9 @@ CMakeFiles/process_sorting_simulator.dir/source/process.cpp.o: ../source/process
 CMakeFiles/process_sorting_simulator.dir/source/processor.cpp.o: ../include/simulator.h
 CMakeFiles/process_sorting_simulator.dir/source/processor.cpp.o: ../source/processor.cpp
 
+CMakeFiles/process_sorting_simulator.dir/source/round.cpp.o: ../include/simulator.h
+CMakeFiles/process_sorting_simulator.dir/source/round.cpp.o: ../source/round.cpp
+
 CMakeFiles/process_sorting_simulator.dir/source/simulator.cpp.o: ../include/simulator.h
 CMakeFiles/process_sorting_simulator.dir/source/simulator.cpp.o: ../source/simulator.cpp
 

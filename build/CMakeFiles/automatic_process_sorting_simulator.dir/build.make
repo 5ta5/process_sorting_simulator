@@ -109,9 +109,22 @@ CMakeFiles/automatic_process_sorting_simulator.dir/source/processor.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automatic_process_sorting_simulator.dir/source/processor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stas/GIT/process_sorting_simulator/source/processor.cpp -o CMakeFiles/automatic_process_sorting_simulator.dir/source/processor.cpp.s
 
+CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o: CMakeFiles/automatic_process_sorting_simulator.dir/flags.make
+CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o: ../source/round.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o -c /home/stas/GIT/process_sorting_simulator/source/round.cpp
+
+CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stas/GIT/process_sorting_simulator/source/round.cpp > CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.i
+
+CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stas/GIT/process_sorting_simulator/source/round.cpp -o CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.s
+
 CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o: CMakeFiles/automatic_process_sorting_simulator.dir/flags.make
 CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o: ../source/simulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o -c /home/stas/GIT/process_sorting_simulator/source/simulator.cpp
 
 CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.s: cmake
 
 CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o: CMakeFiles/automatic_process_sorting_simulator.dir/flags.make
 CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o: ../source/sjf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o -c /home/stas/GIT/process_sorting_simulator/source/sjf.cpp
 
 CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.i: cmake_force
@@ -141,6 +154,7 @@ automatic_process_sorting_simulator_OBJECTS = \
 "CMakeFiles/automatic_process_sorting_simulator.dir/source/fifo.cpp.o" \
 "CMakeFiles/automatic_process_sorting_simulator.dir/source/process.cpp.o" \
 "CMakeFiles/automatic_process_sorting_simulator.dir/source/processor.cpp.o" \
+"CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o" \
 "CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o" \
 "CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o"
 
@@ -151,11 +165,12 @@ automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simula
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/source/fifo.cpp.o
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/source/process.cpp.o
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/source/processor.cpp.o
+automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/source/simulator.cpp.o
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/source/sjf.cpp.o
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/build.make
 automatic_process_sorting_simulator: CMakeFiles/automatic_process_sorting_simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable automatic_process_sorting_simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable automatic_process_sorting_simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/automatic_process_sorting_simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

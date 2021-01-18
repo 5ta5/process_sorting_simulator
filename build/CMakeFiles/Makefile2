@@ -76,12 +76,12 @@ clean: CMakeFiles/process_sorting_simulator.dir/clean
 CMakeFiles/automatic_process_sorting_simulator.dir/all:
 	$(MAKE) -f CMakeFiles/automatic_process_sorting_simulator.dir/build.make CMakeFiles/automatic_process_sorting_simulator.dir/depend
 	$(MAKE) -f CMakeFiles/automatic_process_sorting_simulator.dir/build.make CMakeFiles/automatic_process_sorting_simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target automatic_process_sorting_simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target automatic_process_sorting_simulator"
 .PHONY : CMakeFiles/automatic_process_sorting_simulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/automatic_process_sorting_simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stas/GIT/process_sorting_simulator/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stas/GIT/process_sorting_simulator/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/automatic_process_sorting_simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stas/GIT/process_sorting_simulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/automatic_process_sorting_simulator.dir/rule
@@ -103,12 +103,12 @@ CMakeFiles/automatic_process_sorting_simulator.dir/clean:
 CMakeFiles/process_sorting_simulator.dir/all:
 	$(MAKE) -f CMakeFiles/process_sorting_simulator.dir/build.make CMakeFiles/process_sorting_simulator.dir/depend
 	$(MAKE) -f CMakeFiles/process_sorting_simulator.dir/build.make CMakeFiles/process_sorting_simulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target process_sorting_simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stas/GIT/process_sorting_simulator/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target process_sorting_simulator"
 .PHONY : CMakeFiles/process_sorting_simulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/process_sorting_simulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stas/GIT/process_sorting_simulator/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stas/GIT/process_sorting_simulator/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/process_sorting_simulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stas/GIT/process_sorting_simulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/process_sorting_simulator.dir/rule

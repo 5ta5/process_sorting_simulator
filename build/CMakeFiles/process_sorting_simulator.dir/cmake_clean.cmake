@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/process_sorting_simulator.dir/source/fifo.cpp.o"
   "CMakeFiles/process_sorting_simulator.dir/source/process.cpp.o"
   "CMakeFiles/process_sorting_simulator.dir/source/processor.cpp.o"
+  "CMakeFiles/process_sorting_simulator.dir/source/round.cpp.o"
   "CMakeFiles/process_sorting_simulator.dir/source/simulator.cpp.o"
   "CMakeFiles/process_sorting_simulator.dir/source/sjf.cpp.o"
   "process_sorting_simulator"

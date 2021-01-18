@@ -280,6 +280,36 @@ source/processor.cpp.s:
 	$(MAKE) -f CMakeFiles/process_sorting_simulator.dir/build.make CMakeFiles/process_sorting_simulator.dir/source/processor.cpp.s
 .PHONY : source/processor.cpp.s
 
+source/round.o: source/round.cpp.o
+
+.PHONY : source/round.o
+
+# target to build an object file
+source/round.cpp.o:
+	$(MAKE) -f CMakeFiles/automatic_process_sorting_simulator.dir/build.make CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.o
+	$(MAKE) -f CMakeFiles/process_sorting_simulator.dir/build.make CMakeFiles/process_sorting_simulator.dir/source/round.cpp.o
+.PHONY : source/round.cpp.o
+
+source/round.i: source/round.cpp.i
+
+.PHONY : source/round.i
+
+# target to preprocess a source file
+source/round.cpp.i:
+	$(MAKE) -f CMakeFiles/automatic_process_sorting_simulator.dir/build.make CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.i
+	$(MAKE) -f CMakeFiles/process_sorting_simulator.dir/build.make CMakeFiles/process_sorting_simulator.dir/source/round.cpp.i
+.PHONY : source/round.cpp.i
+
+source/round.s: source/round.cpp.s
+
+.PHONY : source/round.s
+
+# target to generate assembly for a file
+source/round.cpp.s:
+	$(MAKE) -f CMakeFiles/automatic_process_sorting_simulator.dir/build.make CMakeFiles/automatic_process_sorting_simulator.dir/source/round.cpp.s
+	$(MAKE) -f CMakeFiles/process_sorting_simulator.dir/build.make CMakeFiles/process_sorting_simulator.dir/source/round.cpp.s
+.PHONY : source/round.cpp.s
+
 source/simulator.o: source/simulator.cpp.o
 
 .PHONY : source/simulator.o
@@ -365,6 +395,9 @@ help:
 	@echo "... source/processor.o"
 	@echo "... source/processor.i"
 	@echo "... source/processor.s"
+	@echo "... source/round.o"
+	@echo "... source/round.i"
+	@echo "... source/round.s"
 	@echo "... source/simulator.o"
 	@echo "... source/simulator.i"
 	@echo "... source/simulator.s"

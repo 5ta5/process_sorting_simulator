@@ -39,6 +39,7 @@ int main(){
         fifo_sum/=samples;
         sjf_ex_sum/=samples;
         sjf_no_sum/=samples;
-        cout<<fifo_sum<<","<<sjf_ex_sum<<","<<sjf_no_sum<<"\n";
+        round_sum/=samples;
+        cout<<fifo_sum<<","<<sjf_ex_sum<<","<<sjf_no_sum<<","<<round_sum<<"\n";
     }
 }
