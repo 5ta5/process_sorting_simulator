@@ -89,7 +89,8 @@ void menu(){
             break;
         }
         default:{
-            std::cout<<"Give me a number (1 to 8)\n";//MENU
+            std::cout<<"Give me a number (1 to 7)\n";//MENU
+            break;
         }
     }
 }
