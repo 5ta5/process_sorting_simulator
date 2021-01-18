@@ -11,6 +11,7 @@ int main(){
         float fifo_sum=0;
         float sjf_ex_sum=0;
         float sjf_no_sum=0;
+        float round_sum=0;
         for(int j=0;j<samples;j++){
             simulator sim;
             sim.generate(i);
@@ -29,6 +30,11 @@ int main(){
             sim.proc=&sjf_no_obj;
             sim.simulate();
             sjf_no_sum+=sim.average_awaiting_time();
+            
+            round round_obj;
+            sim.proc=&round_obj;
+            sim.simulate();
+            round_sum+=sim.average_awaiting_time();
         }
         fifo_sum/=samples;
         sjf_ex_sum/=samples;

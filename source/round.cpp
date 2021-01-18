@@ -1,6 +1,6 @@
 #include "simulator.h" 
 
-bool fifo::tick(){
+bool round::tick(){
     int p_num=0;
     timer++;
     while(p_num<loaded.size()){
@@ -13,6 +13,6 @@ bool fifo::tick(){
     return(false);
 }
 
-void fifo::append(process p){
+void round::append(process p){
     loaded.push_back(p);
 }

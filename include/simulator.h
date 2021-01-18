@@ -79,3 +79,8 @@ class sjf_no : public processor{
     bool tick();
     void append(process p);
 };
+class round : public processor{
+    int robin=0;
+    bool tick();
+    void append(process p);
+};

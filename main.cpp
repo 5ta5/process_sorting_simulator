@@ -9,8 +9,8 @@ void print_menu(){
     std::cout<<"[4] Read data from file\n";//MENU
     std::cout<<"[5] Simulate\n";//MENU
     std::cout<<"[6] Print resoults\n";//MENU
-    std::cout<<"[7] Save resoults\n";//MENU
-    std::cout<<"[8] Exit\n";//MENU
+    //std::cout<<"[7] Save resoults\n";//MENU
+    std::cout<<"[7] Exit\n";//MENU
 }
 
 simulator sim;
@@ -18,6 +18,7 @@ bool main_exit;
 fifo fifo_obj;
 sjf_ex sjf_ex_obj;
 sjf_no sjf_no_obj;
+round round_obj;
 
 void menu(){
     
@@ -62,7 +63,9 @@ void menu(){
             if(odp==3){
                 sim.proc=&sjf_no_obj;
             }
-            
+            if(odp==4){
+                sim.proc=&round_obj;
+            }
             //simulate
             sim.simulate();
             
@@ -74,14 +77,14 @@ void menu(){
             sim.resoults_print();
             break;
         }
-        case 7:{
+        /*case 7:{
             std::cout<<"FILE_NAME: ";
             std::string file_name="data";
             std::cin>>file_name;
             sim.resoults_to_file(file_name);
             break;
-        }
-        case 8:{
+        }*/
+        case 7:{
             main_exit=true;
             break;
         }
